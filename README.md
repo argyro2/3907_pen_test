@@ -3,10 +3,10 @@
 This repository is a companion to my thesis on web application security, providing practical examples of common vulnerabilities and security measures.
 
 ## Contents
-- **SQL Injection Based on User Input
+- **SQL Injection Based on User Input**
 - **Error-Based SQL Injection** 
 - **Union-Based SQL Injection** 
-- **Second-Order SQL Injection**.
+- **Second-Order SQL Injection**
 - **HTTP Header Injection**
 - **Cookie-Based Injection** 
 
@@ -20,16 +20,16 @@ This repository is a companion to my thesis on web application security, providi
 
 ### Running the Example: Error-Based SQL Injection
 
-    Navigate to the Vulnerable Page
-        Open error_based.php in your browser. This page includes a vulnerable SQL query that can be exploited using error-based injection techniques.
+Navigate to the Vulnerable Page
+Open error_based.php in your browser. This page includes a vulnerable SQL query that can be exploited using error-based injection techniques.
 
-    Input Malicious Query
-        In the input field, enter the following payload:
+Input Malicious Query
+In the input field, enter the following payload:
 
     1' AND 1=1 --
 
-    This input is designed to modify the SQL query structure, exploiting the application’s error-handling to reveal database details.
+This input is designed to modify the SQL query structure, exploiting the application’s error-handling to reveal database details.
 
 Observe Error Message
 
-    After submitting the form, check the response for any error message that exposes information about the database or query structure. Error-based SQL injection works by intentionally triggering SQL errors that may disclose database schema or other sensitive information in the error output.
+ After submitting the form, check the response for any error message that exposes information about the database or query structure. Error-based SQL injection works by intentionally triggering SQL errors that may disclose database schema or other sensitive information in the error output.
