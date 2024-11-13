@@ -1,6 +1,6 @@
 # Detection and mitigation of SQL vulnerabilities
 ## Project Overview
-This repository is a companion to my thesis on web application security, providing practical examples of common vulnerabilities and security measures.
+This repository is a companion to my thesis on web application security, providing practical examples of common vulnerabilities and security measures. Full Thesis in the `/thesis` folder.
 
 ## Contents
 - **SQL Injection Based on User Input**
